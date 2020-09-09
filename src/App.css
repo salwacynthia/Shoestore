@@ -1,0 +1,42 @@
+:root{
+  /* setting the colors in variables */
+ 
+  --lightBlue:#009ffd;
+  --mainWhite:#f1f0ed;
+  --mainDark:#232528;
+  --mainYellow:#ffa400;
+}
+
+
+body {
+  font-family: 'Raleway', sans-serif !important; /* bootstrap er karone ei font ashto na !important diyechi tai */
+  background: var(--mainWhite) !important;
+  width:100%; 
+  color: var(--mainDark) !important;
+}
+
+.text-title{
+  font-family: 'Parmanent Marker', cursive;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  
+}
+
+.text-blue{
+  color:var(--mainBlue);
+}
+.text-bright{
+  color:var(--lightBlue);
+}
+#about{
+  margin: 40px;
+  color: white;
+  font-size: larger;
+  background-color: rgb(136, 134, 7);
+}
+#navbar{
+  /* background-color: crimson; */
+  font-size: larger;
+  color:black !important;
+
+}
